@@ -1,6 +1,6 @@
 body, nav {
     /* background-color: #040C18; */
-    background: linear-gradient(90deg, #052D56, #040c18, #040c18, #040c18 100%);
+     background: linear-gradient(90deg, #052D56, #040c18, #040c18, #040c18 100%); 
 }
 
 a {
@@ -152,8 +152,8 @@ a {
 }
 
 .card1body2 button {
-     border: none;
-     font-size: 15px;
+    border: none;
+    font-size: 15px;
     outline: none;
     background: transparent;
     color: #fff;
@@ -166,7 +166,7 @@ a {
 
 .liverow {
     padding-top: 70px;
-}
+} 
 
 .footer7 p a {
     text-decoration: none;
@@ -189,7 +189,7 @@ a {
     font-size: 19px;
 }
 
-.grid1tap{
+.grid1tap {
     font-size: 33px;
     margin-top: 30px;
 }
@@ -254,8 +254,13 @@ br {
     padding: 10px;
 }
 
-.nowBTN {
-    width: 100%;
+.d-flex {
+    flex-direction: column !important;
+}
+
+.nowBTN, .inpTTT {
+    width: 100% !important;
+    padding: 20px 15px;
 }
 
 .widthFT {
@@ -298,7 +303,148 @@ br {
 .cardsPP{
     margin-left: 12px;
 }
+}
 
+@media only screen and (min-width: 600px) {
+    .cards {
+        padding: 0;
+    }
+
+    .card1 img {
+        width: 316.03px;
+    }
+
+    .card1body {
+        width: 316.03px;
+        height: 386px;
+    }
+
+    .card1body h2 {
+        font-size: 21.11px;
+    }
+
+    .card2 img {
+        width: 174.34px;
+    }
+
+    .card1body2 h2 {
+        font-size: 11px;
+    }
+
+    .card1body2 {
+        width: 174.34px;
+    }
+
+    .card2a img {
+        width: 174.34px;
+    }
+    .dtoppTT {
+        margin-bottom: 20px;
+    }
+
+    .card1body button {
+        margin-top: 180px;
+    }
+
+    .liverow {
+        padding-top: 5px;
+    }
+
+    .cards h2 {
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .cards {
+    padding: 20px 70px;
+}
+
+.cards h2 {
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.card1 img {
+    width: 417.03px;
+}
+
+.card1body {
+    background: #031b34;
+    width: 417.03px;
+    height: 435px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.card1body p {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 34.95px;
+    color: #fff;
+}
+
+.card1body h2 {
+    color: #fff;
+    font-size: 25.11px;
+    font-weight: 800;
+    line-height: 30px;
+}
+
+.card1body button {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    margin-top: 210px;
+}
+
+.card2, .card2a {
+    margin-left: 70px;
+}
+
+.card2 img {
+    width: 327.34px;
+}
+
+.card1body2 {
+    width: 327.34px;
+    height: 250px;
+    background: #031b34;
+     padding-top: 10px;
+    padding-left: 15px;
+}
+
+.card1body2 p {
+    font-style: 11.65px;
+    font-weight: 700;
+    line-height: 34.95px;
+    color: #fff;
+}
+
+.card1body2 h2 {
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 30.29px;
+    color: #fff;
+}
+
+.card1body2 button {
+     border: none;
+     font-size: 15px;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.card2a {
+    margin-top: 20px;
+}
+
+.liverow {
+    padding-top: 70px;
+}
 
 }
 
